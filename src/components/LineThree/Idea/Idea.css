@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap");
+.idea__container {
+  display: flex;
+  flex-direction: row;
+}
+
+.lamp__container {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin-left: 200px;
+  margin-top: 100px;
+}
+
+.lamp__container span {
+  position: absolute;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.1);
+  transform: rotate(calc(45deg * var(--i)));
+  background: transparent;
+}
+
+.lamp__container span::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  width: 150px;
+  height: 130px;
+  background: url(off.png);
+  background-size: cover;
+  background-position: center;
+  transform: translateX(-50%) translateY(-100px);
+  scale: 0.75;
+  animation: lamps 2s steps(1) infinite;
+  animation-delay: calc(0.2s * var(--i));
+}
+
+@keyframes lamps {
+  0%,
+  100% {
+    background: url(off.png);
+  }
+  50% {
+    background: url(on.png);
+  }
+}
+
+.idea__word {
+  margin-top: 60px;
+  margin-left: 20px;
+  color: gold;
+  font-family: "East Sea Dokdo", cursive;
+  font-size: 65px;
+}
+
+.idea__text {
+  margin-left: 170px;
+  margin-top: 180px;
+  font-family: "East Sea Dokdo", cursive;
+  font-size: 75px;
+}

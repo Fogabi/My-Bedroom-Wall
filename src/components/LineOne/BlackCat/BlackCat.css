@@ -1,0 +1,155 @@
+.black__cat__body {
+  background-color: #33292b;
+  height: 120px;
+  width: 130px;
+  position: relative;
+  left: 30px;
+  border-radius: 0 65px 0 0;
+  margin: -100px 100px;
+}
+
+.black__cat__face {
+  background-color: #33292b;
+  height: 100px;
+  width: 150px;
+  border-radius: 30px;
+  margin: 100px;
+  z-index: -1;
+}
+
+.black__cat__ear-l,
+.black__cat__ear-r {
+  width: 0;
+  height: 0;
+  border-bottom: 50px solid #33292b;
+  border-left: 18px solid transparent;
+  border-right: 18px solid transparent;
+  position: relative;
+  z-index: 1;
+}
+
+.black__cat__ear-l {
+  bottom: 44px;
+  transform: rotate(-16deg);
+}
+
+.black__cat__ear-r {
+  bottom: 94px;
+  left: 115px;
+  transform: rotate(16deg);
+}
+
+.black__cat__ear__inner1 {
+  width: 0;
+  height: 0;
+  border-bottom: 50px solid #d36149;
+  border-left: 20px solid transparent;
+  right: 20px;
+  position: relative;
+}
+
+.black__cat__ear__inner2 {
+  width: 0;
+  height: 0;
+  border-bottom: 50px solid #d36149;
+  border-right: 20px solid transparent;
+  position: relative;
+}
+
+.black__cat__eye-l,
+.black__cat__eye-r {
+  background-color: #509b51;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  position: relative;
+}
+
+.black__cat__eye-l {
+  bottom: 75px;
+  left: 30px;
+}
+
+.black__cat__eye-r {
+  bottom: 100px;
+  left: 95px;
+}
+
+.black__cat__eyeball {
+  background-color: #262626;
+  height: 22.5px;
+  width: 22.5px;
+  border-radius: 50%;
+  position: relative;
+  top: 1px;
+  left: 10%;
+}
+
+.black__cat__nose {
+  height: 0;
+  width: 0;
+  border-top: 8px solid #d36149;
+  border-left: 7px solid #262626;
+  border-right: 7px solid #262626;
+  position: relative;
+  bottom: 100px;
+  left: 68px;
+}
+
+.black__cat__l1,
+.black__cat__l2 {
+  background-color: #d36149;
+  height: 8px;
+  width: 1px;
+  position: relative;
+}
+
+.black__cat__l1 {
+  transform: rotate(45deg);
+  right: 4px;
+  bottom: 1.5px;
+}
+
+.black__cat__l2 {
+  transform: rotate(-45deg);
+  left: 3.5px;
+  bottom: 10px;
+}
+
+.black__cat__paw-l, .black__cat__paw-r{
+  background-color: #33292b;
+  height: 10px;
+  width: 22px;
+  position: relative;
+  border-radius: 0 0px 10px 10px;
+}
+
+.black__cat__paw-l{
+  top: 120px;
+}
+
+.black__cat__paw-r{
+  top: 110px;
+  left: 50px;
+}
+
+.black__cat__tail{
+  background-color: #33292b;
+  width: 100px;
+  height: 20px;
+  position: relative;
+  top: 80px;
+  left: 100px;
+  border-radius: 0 20px 20px 0;
+}
+
+.black__cat__shadow{
+  background-color: rgba(8, 8, 8, 0.05);
+  height: 30px;
+  width: 150px;
+  border-radius: 50%;
+  position: relative;
+  bottom: -100px;
+  left: 110px;
+  z-index: 1;
+}

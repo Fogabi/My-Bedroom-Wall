@@ -1,0 +1,45 @@
+/* .egg__main__div{
+  padding: 100px;
+} */
+
+.egg__body {
+  padding: auto;
+  height: 250px;
+  width: 180px;
+  background-color: #ffffff;
+  margin-top: 100px;
+  margin-left: 100px;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  box-shadow: 25px 0 rgba(0, 0, 0, 0.1);
+}
+
+.egg__yolk {
+  margin-top: -150px;
+  margin-left: 129px;
+  height: 120px;
+  width: 120px;
+  background-color: #f5d201;
+  border-radius: 50%;
+}
+
+.egg__eyes {
+  height: 12px;
+  width: 12px;
+  background-color: #010008;
+  margin-top: -75px;
+  margin-left: 205px;
+  border-radius: 50%;
+  box-shadow: -40px 0 0 #010008, 10px 15px 0 -2px #f5750f,
+    -50px 15px 0 -2px #f5750f;
+}
+
+.egg__mouth {
+  height: 11px;
+  width: 21px;
+  background-color: #010008;
+  margin-top: 15px;
+  margin-left: 180px;
+  border-radius: 5px 5px 18px 18px;
+  border: 3px solid #010008;
+  background: radial-gradient(at 50% 100%, #f5750f 6px, #010008 8px);
+}
