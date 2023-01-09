@@ -1,0 +1,36 @@
+.light__main{
+    background-color: #85a8fc;
+}
+.line__1 {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  margin-bottom: -200px;
+}
+
+.line__2{
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+
+}
+
+.line__3{
+  display: flex;
+}
+
+.line__4{
+  display: grid;
+  grid-template-columns: 1fr;
+
+}
+
+p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width:820px) {
+  .line__1, .line__2{
+    grid-template-columns: 1fr;
+  }
+}

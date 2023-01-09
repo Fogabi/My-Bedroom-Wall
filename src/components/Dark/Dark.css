@@ -1,7 +1,6 @@
-* {
+.dark__main {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  background-color: #85a8fc;
+  background-color: black;
 }
-
