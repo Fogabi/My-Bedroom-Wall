@@ -37,9 +37,6 @@ p {
   .line__1{
     grid-template-columns: 1fr;
   }
-  .light__main {
-    width: 321%;
-  }
   .line__5{
     margin-bottom: 500px;
   }

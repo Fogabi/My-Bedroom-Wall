@@ -67,7 +67,8 @@
     margin-top: 150px;
   }
   .idea__text {
-    font-size: 100px;
+    font-size: 90px;
+    min-width: 900px;
   }
   .idea__lamp__container {
     margin-left: 50%;

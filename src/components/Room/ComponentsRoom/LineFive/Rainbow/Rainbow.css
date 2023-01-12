@@ -116,10 +116,11 @@
     flex-direction: column;
   }
   .rainbow__container {
-    margin-left: 80%;
+    margin-left: 850px;
   }
   .rainbow__text__container {
-    margin-left: 20%;
+    margin-left: 200px;
+    min-width: 800px;
     margin-top: -350px;
   }
 }
