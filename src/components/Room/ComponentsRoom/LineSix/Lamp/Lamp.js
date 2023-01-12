@@ -24,6 +24,7 @@ function Lamp() {
           type="checkbox"
           onClick={() => {
             //changing elements when the switch to dark is triggered
+
             const turn__off__lights =
               window.parent.document.getElementById("light__main");
 
@@ -38,9 +39,12 @@ function Lamp() {
 
             const lamp__thaks = document.getElementById("lamp__thanks");
             const contact = document.getElementById("contact__container");
+
             if (on__off == "on") {
               turn__off__lights.style.background = "#85a8fc;";
+
               turn__off__lights.style.opacity = 0.4;
+
               turn__off__rainbow__container.style.setProperty(
                 "--turn__off__rainbow__container__afterBackColor",
                 "#85a8fc;"
@@ -48,11 +52,15 @@ function Lamp() {
               change__color__text__two__paragraphs.style.color = "white";
 
               lamp__thaks.style.color = "white";
+
               contact.style.color = "white";
+
               setOnOff("off");
             } else {
               turn__off__lights.style.background = "#85a8fc";
+
               turn__off__lights.style.opacity = 1;
+
               turn__off__rainbow__container.style.setProperty(
                 "--turn__off__rainbow__container__afterBackColor",
                 "#85a8fc"

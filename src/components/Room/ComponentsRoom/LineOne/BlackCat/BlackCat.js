@@ -4,7 +4,7 @@ import "./BlackCat.css";
 function BlackCat() {
   return (
     <div className="black__cat__main__div">
-      <div className="black__cat__face" id="lalala">
+      <div className="black__cat__face">
         <div className="black__cat__ear-l">
           <div className="black__cat__ear__inner1"></div>
         </div>

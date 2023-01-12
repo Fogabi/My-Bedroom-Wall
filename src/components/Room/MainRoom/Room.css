@@ -1,5 +1,5 @@
-*{
-   background-color: #85a8fc;
+html{
+   background-color: var(--change__background__color,#85a8fc);
 }
 .light__main {
   height: 100%;
