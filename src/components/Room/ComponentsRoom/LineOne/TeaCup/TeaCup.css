@@ -1,0 +1,145 @@
+.tea__cup__container {
+  position: relative;
+}
+
+.tea__cup {
+  position: relative;
+  width: 180px;
+  height: 170px;
+  background: linear-gradient(to right, #f9f9f9, #d9d9d9);
+  border-bottom-left-radius: 45%;
+  border-bottom-right-radius: 45%;
+  margin: 250px 150px;
+}
+
+.tea__cup__top {
+  position: absolute;
+  top: -20px;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  background: linear-gradient(to right, #f9f9f9, #d9d9d9);
+}
+
+.tea__cup__circle {
+  position: absolute;
+  top: -22px;
+  width: calc(100% - 0px);
+  height: 50px;
+  background: linear-gradient(to left, #f9f9f9, #d9d9d9);
+  border-radius: 50%;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.tea__cup__tea {
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  width: 88%;
+  height: 88%;
+  background: linear-gradient(to left, #5b4034, #6d3d2b);
+  border-radius: 50%;
+}
+
+.tea__cup__handle{ 
+  margin-left: 128px;
+    width: 100px;
+    height: 120px;
+    border: 15px solid #d9d9d9;
+    border-left: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-radius: 50%;
+    transform: rotate(37deg);
+    background: transparent;
+}
+
+.tea__cup__plate {
+  position: absolute;
+  bottom: 205px;
+  left: 240px;
+  transform: translateX(-50%);
+  width: 300px;
+  height: 120px;
+  background: linear-gradient(to right, #f9f9f9, #e7e7e7);
+  border-radius: 50%;
+  box-shadow: 0 35px 35px rgba(0, 0, 0, 0.2);
+}
+
+.tea__cup__plate::before {
+  content: "";
+  position: absolute;
+  bottom: 5px;
+  left: 2%;
+  border-radius: 50%;
+  width: 290px;
+  height: 110px;
+  background: linear-gradient(to left, #f9f9f9, #e7e7e7);
+}
+
+.tea__cup__plate::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 25px;
+  width: 290px;
+  height: 110px;
+  background: radial-gradient(
+    rgba(0, 0, 0, 0.17) 25%,
+    transparent,
+    transparent
+  );
+  border-radius: 50%;
+}
+
+.tea__cup__vapour {
+  position: relative;
+  display: flex;
+  z-index: 1;
+  padding: 0 20px;
+  height: 0;
+  width: 0;
+}
+
+.span {
+  position: relative;
+  bottom: 100px;
+  display: block;
+  margin: 0 2px 50px;
+  min-width: 8px;
+  height: 120px;
+  background-color: #fff;
+  border-radius: 50%;
+  animation: vapour 5s linear infinite;
+  opacity: 0;
+  filter: blur(8px);
+  animation-delay: calc(var(--v) * 0.5s);
+}
+@keyframes vapour {
+  0% {
+    transform: translateY(0) scaleX(5);
+    opacity: 0;
+  }
+  15% {
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(-150px) scaleX(7);
+  }
+  95% {
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(-300px) scaleX(10);
+  }
+}
+
+@media screen and (max-width:414px) {
+  .tea__cup__container{
+    margin-top: -200px;
+    margin-left: 700px;
+  }
+  .tea__cup__plate{
+
+  }
+}

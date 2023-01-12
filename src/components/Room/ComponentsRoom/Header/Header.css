@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css?family=Sofia");
+.header__container {
+  position: relative;
+}
+.header__text {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Sofia", sans-serif;
+  font-size: 70px;
+  color: #d13b85;
+  text-shadow: 0 0 20px #1820ba;
+  z-index: 2;
+  margin: 0 50px;
+  margin-bottom: 100px;
+}
+
+.header__text:after {
+  content: attr(data-text);
+  position: absolute;
+  top: 5;
+  left: 10;
+  padding: 0 20px;
+  z-index: -1;
+  color: #1820ba;
+  filter: blur(15px);
+}
+
+.header__text::before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 10;
+  width: 50%;
+  height: 100%;
+  background-color: #fff;
+  z-index: -2;
+  opacity: 0.5;
+  filter: blur(40px);
+}
+
+.header__intro {
+  position: relative;
+  margin-left: 420px;
+  margin-bottom: 0px;
+  padding-top: 20px;
+  color: #1820ba;
+  font-family: "Sofia", sans-serif;
+  font-size: 25px;
+}
+
+@media screen and (max-width:414px) {
+  .header__text{ 
+    font-size: 100px;
+  }
+  .header__intro{
+    margin-left: 130px;
+  }
+  .header__intro{
+    font-size: 45px;
+  }
+  .header__text::before{
+    width: 100%;
+  }
+}

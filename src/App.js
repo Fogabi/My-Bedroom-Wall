@@ -1,16 +1,19 @@
 import "./App.css";
-import { Route, BrowserRouter } from "react-router-dom";
-import Light from "./components/Light/MainLight/Light.js";
-import Dark from "./components/Dark/Dark";
+import ReactDOM from "react-dom/client";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Room from "./components/Room/MainRoom/Room.js";
+import Door from "./components/Door/Door";
 
-const App = () => {
-    return(
-      //  <BrowserRouter>
-      //      <Route component = { Light }  path="/Light" />
-      //      <Route component = { Dark }  path="/Dark" />
-      //  </BrowserRouter>
-      <Light />
+export default function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Room/>} />
+        <Route path="/door" element={<Door />} />
+      </Routes>
+    </BrowserRouter>
   );
-}
+};
 
-export default App;
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(<App />);
