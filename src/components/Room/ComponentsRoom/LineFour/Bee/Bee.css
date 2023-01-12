@@ -90,7 +90,7 @@
   max-width: 400px;
 }
 
-.bee__text-2{
+.bee__text-2 {
   margin-top: 100px;
   margin-left: 200px;
   text-decoration: dotted underline;
@@ -100,20 +100,20 @@
 }
 
 .bee__boots,
-.bee__boots:before{
+.bee__boots:before {
   position: absolute;
   height: 50px;
   width: 8px;
   background-color: #ffec02;
 }
 
-.bee__boots{
+.bee__boots {
   left: 160px;
   bottom: -85px;
   z-index: -1;
 }
 
-.bee__boots:before{
+.bee__boots:before {
   content: "";
   right: 55px;
 }
@@ -131,29 +131,38 @@
 }
 
 .bee__boots__leg,
-.bee__boots__leg:before{
+.bee__boots__leg:before {
   position: absolute;
   height: 20px;
   width: 8px;
   background-color: #da239a;
 }
 
-.bee__boots__leg{
+.bee__boots__leg {
   left: 160px;
   bottom: -84px;
 }
 
-.bee__boots__leg:before{
+.bee__boots__leg:before {
   content: "";
   right: 55px;
   background-color: #da239a;
 }
 
-@media screen and (max-width:414px) {
-  .bee__container{
-    flex-direction: column-reverse;
+@media screen and (max-width: 414px) {
+  .bee {
+    margin-left: 150px;
+    margin-top: 300px;
   }
 }
 
-
-
+@media screen and (min-width: 540px) and (max-width: 1280px) {
+  .bee {
+    margin-left: 190px;
+    margin-top: 400px;
+  }
+  .bee__text-1{
+    font-size: 40px;
+    min-width: 600px;
+  }
+}

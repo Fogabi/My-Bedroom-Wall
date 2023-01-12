@@ -3,6 +3,11 @@
   z-index: 2;
   display: flex;
   flex-direction: row;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin-left: 200px;
+  margin-top: 100px;
 }
 
 .lamp__text {
@@ -20,7 +25,6 @@
   min-width: 300px;
   text-decoration: dotted underline;
   color: transparent;
-  
 }
 
 .switch__to__dark__container {
@@ -96,9 +100,22 @@
   position: absolute;
   opacity: 0;
   cursor: pointer;
-
 }
 
+.contact__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Poppins, sans-serif;
+  color: transparent;
+  margin-top: 50px;
+  margin-left: 230px;
+  
+}
 
-
+@media screen and (min-width: 339px) and (max-width: 539px) {
+  .lamp__container {
+    margin-left: 100px;
+  }
+}
 

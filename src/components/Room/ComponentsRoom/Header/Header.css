@@ -50,17 +50,30 @@
   font-size: 25px;
 }
 
-@media screen and (max-width:414px) {
-  .header__text{ 
+@media screen and (min-width:339px) and (max-width: 539px) {
+  .header__text {
     font-size: 100px;
   }
-  .header__intro{
+  .header__intro {
     margin-left: 130px;
-  }
-  .header__intro{
     font-size: 45px;
   }
-  .header__text::before{
+  .header__text::before {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 540px) and (max-width: 1280px) {
+  .header__text {
+    margin-left: 10%;
+    min-width: 1000px;
+    font-size: 100px;
+  }
+  .header__intro {
+    margin-left: 10%;
+    font-size: 45px;
+  }
+  .header__text::before {
     width: 100%;
   }
 }

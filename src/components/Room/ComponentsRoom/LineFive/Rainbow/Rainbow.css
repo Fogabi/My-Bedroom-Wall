@@ -26,7 +26,10 @@
   bottom: 1%;
   left: -40%;
   border-radius: 0 0 0.6em 0.6em;
-  background-color: var(--turn__off__rainbow__container__afterBackColor,#85a8fc)
+  background-color: var(
+    --turn__off__rainbow__container__afterBackColor,
+    #85a8fc
+  );
 }
 
 .rainbow__color {
@@ -108,8 +111,30 @@
   background: transparent;
 }
 
-@media screen and (max-width:414px) {
-  .rainbow__line__container{
+@media screen and (min-width:339px) and (max-width: 539px) {
+  .rainbow__line__container {
     flex-direction: column;
+  }
+  .rainbow__container {
+    margin-left: 80%;
+  }
+  .rainbow__text__container {
+    margin-left: 20%;
+    margin-top: -350px;
+  }
+}
+
+@media screen and (min-width: 540px) and (max-width: 1280px) {
+  .rainbow__container {
+    margin-left: 450px;
+  }
+  .rainbow__text__container {
+    margin-top: 100px;
+    margin-left: -210px;
+    min-width: 700px;
+  }
+  .rainbow__container:after {
+    left: -50%;
+    width: 101%;
   }
 }

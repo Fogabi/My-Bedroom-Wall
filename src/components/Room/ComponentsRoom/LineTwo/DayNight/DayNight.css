@@ -245,10 +245,18 @@
   top: -0.8em;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (min-width:339px) and (max-width: 539px) {
   .day__night__container {
     font-size: 20px;
     top: 100px;
     left: 100px;
+  }
+}
+
+@media screen and (min-width: 540px) and (max-width: 1280px) {
+  .day__night__container {
+    font-size: 20px;
+    top: 100px;
+
   }
 }

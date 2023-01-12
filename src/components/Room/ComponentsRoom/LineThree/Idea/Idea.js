@@ -4,7 +4,7 @@ import "./Idea.css";
 function Idea() {
   return (
     <div className="idea__container">
-      <div className="lamp__container">
+      <div className="idea__lamp__container">
         <span style={{ "--i": 0 }}></span>
         <span style={{ "--i": 1 }}></span>
         <span style={{ "--i": 2 }}></span>

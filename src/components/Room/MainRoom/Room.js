@@ -16,9 +16,9 @@ function Light() {
     <div className="light__main" id="light__main">
       <Header />
       <div className="line__1" id="line__one">
-          <TextOne />
-          <BlackCat />
-          <TeaCup />
+        <TextOne />
+        <BlackCat />
+        <TeaCup />
       </div>
       <div className="line__2">
         <DayNight />

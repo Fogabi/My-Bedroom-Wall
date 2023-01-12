@@ -6,12 +6,13 @@ import Door from "./components/Door/Door";
 
 export default function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Room/>} />
-        <Route path="/door" element={<Door />} />
-      </Routes>
-    </BrowserRouter>
+    // <BrowserRouter>
+    //   <Routes>
+    //     <Route path="/" element={<Room/>} />
+    //     <Route path="/door" element={<Door />} />
+    //   </Routes>
+    // </BrowserRouter>
+    <Room />
   );
 };
 

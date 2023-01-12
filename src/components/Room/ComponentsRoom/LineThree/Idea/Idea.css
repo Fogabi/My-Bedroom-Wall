@@ -4,7 +4,7 @@
   flex-direction: row;
 }
 
-.lamp__container {
+.idea__lamp__container {
   position: relative;
   width: 200px;
   height: 200px;
@@ -12,7 +12,7 @@
   margin-top: 100px;
 }
 
-.lamp__container span {
+.idea__lamp__container span {
   position: absolute;
   inset: 0;
   background: rgba(255, 255, 255, 0.1);
@@ -20,7 +20,7 @@
   background: transparent;
 }
 
-.lamp__container span::before {
+.idea__lamp__container span::before {
   content: "";
   position: absolute;
   left: 50%;
@@ -61,8 +61,26 @@
   color: rgb(19, 78, 126);
 }
 
-@media screen and (max-width:414px) {
-  .idea__container{
+@media screen and (min-width:339px) and (max-width: 539px) {
+  .idea__container {
     flex-direction: column;
+    margin-top: 150px;
+  }
+  .idea__text {
+    font-size: 100px;
+  }
+  .idea__lamp__container {
+    margin-left: 50%;
+  }
+}
+
+@media screen and (min-width: 540px) and (max-width: 1280px) {
+  .idea__container {
+    margin-top: 150px;
+    margin-left: 90px;
+  }
+  .idea__text {
+    font-size: 75px;
+    min-width: 700px;
   }
 }

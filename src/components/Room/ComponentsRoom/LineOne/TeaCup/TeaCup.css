@@ -134,12 +134,11 @@
   }
 }
 
-@media screen and (max-width:414px) {
+@media screen and (min-width:339px) and (max-width: 539px) {
   .tea__cup__container{
     margin-top: -200px;
     margin-left: 700px;
   }
-  .tea__cup__plate{
-
-  }
 }
+
+

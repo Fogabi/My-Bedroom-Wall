@@ -12,6 +12,11 @@ function Lamp() {
         <h2 className="lamp__thanks" id="lamp__thanks">
           Thank you!
         </h2>
+        <div className="contact__container" id="contact__container">
+          <h1>Gabriela Fogaça Cunha</h1>
+          <h2>gabifogaca.gabriela@gmail.com</h2>
+          <h3>+55 (12) 98217-1835</h3>
+        </div>
       </div>
       <div className="switch__to__dark__container">
         <input
@@ -32,28 +37,31 @@ function Lamp() {
               window.parent.document.getElementById("text__two__paragraphs");
 
             const lamp__thaks = document.getElementById("lamp__thanks");
+            const contact = document.getElementById("contact__container");
             if (on__off == "on") {
-              turn__off__lights.style.background = "rgba(0,0,0,1.167)";
-              turn__off__lights.style.opacity = 0.2;
+              turn__off__lights.style.background = "#85a8fc;";
+              turn__off__lights.style.opacity = 0.4;
               turn__off__rainbow__container.style.setProperty(
                 "--turn__off__rainbow__container__afterBackColor",
-                "rgba(0,0,0,1.167)"
+                "#85a8fc;"
               );
               change__color__text__two__paragraphs.style.color = "white";
 
               lamp__thaks.style.color = "white";
-              setOnOff('off')
+              contact.style.color = "white";
+              setOnOff("off");
             } else {
-               turn__off__lights.style.background = "#85a8fc";
-               turn__off__lights.style.opacity = 1;
-               turn__off__rainbow__container.style.setProperty(
-                 "--turn__off__rainbow__container__afterBackColor",
-                 "#85a8fc"
-               );
-               change__color__text__two__paragraphs.style.color = "black";
+              turn__off__lights.style.background = "#85a8fc";
+              turn__off__lights.style.opacity = 1;
+              turn__off__rainbow__container.style.setProperty(
+                "--turn__off__rainbow__container__afterBackColor",
+                "#85a8fc"
+              );
+              change__color__text__two__paragraphs.style.color = "black";
 
-               lamp__thaks.style.color = "transparent";
-               setOnOff("on");
+              lamp__thaks.style.color = "transparent";
+              contact.style.color = "transparent";
+              setOnOff("on");
             }
           }}
         />
