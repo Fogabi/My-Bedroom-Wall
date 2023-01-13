@@ -10,6 +10,7 @@ import Bee from "../ComponentsRoom/LineFour/Bee/Bee";
 import Rainbow from "../ComponentsRoom/LineFive/Rainbow/Rainbow";
 import "./Room.css";
 import Lamp from "../ComponentsRoom/LineSix/Lamp/Lamp";
+import Egg from '../../Egg/Egg'
 
 function Light() {
   return (
@@ -36,6 +37,7 @@ function Light() {
       <div className="line__6">
         <Lamp />
       </div>
+      <Egg />
     </div>
   );
 }

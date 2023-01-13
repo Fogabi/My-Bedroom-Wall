@@ -8,6 +8,7 @@ function Lamp() {
       <div>
         <h1 className="lamp__text">
           Before you leave, can you please turn off the lights?
+          Click on the button on the right!
         </h1>
         <h2 className="lamp__thanks" id="lamp__thanks">
           Thank you!
