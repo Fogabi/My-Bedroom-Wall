@@ -113,7 +113,7 @@
   
 }
 
-@media screen and (min-width: 339px) and (max-width: 539px) {
+@media screen and (max-width: 539px) {
   .lamp__container {
     margin-left: 100px;
   }

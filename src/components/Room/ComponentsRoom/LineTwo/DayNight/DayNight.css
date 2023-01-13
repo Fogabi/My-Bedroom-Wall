@@ -245,7 +245,7 @@
   top: -0.8em;
 }
 
-@media screen and (min-width:339px) and (max-width: 539px) {
+@media screen and (max-width: 539px) {
   .day__night__container {
     font-size: 20px;
     top: 100px;

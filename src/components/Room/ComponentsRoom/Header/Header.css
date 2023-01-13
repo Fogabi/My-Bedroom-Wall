@@ -50,10 +50,11 @@
   font-size: 25px;
 }
 
-@media screen and (min-width:339px) and (max-width: 539px) {
+
+@media screen and (max-width: 539px) {
   .header__text {
-    font-size: 110px;
-    min-width: 1090px;
+    font-size: 100px;
+    min-width: 1200px;
   }
   .header__intro {
     margin-left: 130px;

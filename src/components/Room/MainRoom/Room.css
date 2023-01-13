@@ -33,7 +33,7 @@ p {
   align-items: center;
 }
 
-@media screen and (min-width:281px) and (max-width: 539px) {
+@media screen and (max-width: 539px) {
   .line__1{
     grid-template-columns: 1fr;
   }

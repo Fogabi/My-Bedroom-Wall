@@ -70,7 +70,7 @@
   color: white;
 }
 
-@media screen and (min-width:339px) and (max-width: 539px) {
+@media screen and (max-width:539px) {
   .text__two__day__night {
     font-size: 30px;
     margin-left: 400px;
@@ -82,7 +82,7 @@
   }
   .text__two__shadow {
     margin-left: 550px;
-    min-width: 400px;
+    min-width: 590px;
   }
 }
 

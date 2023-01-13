@@ -111,7 +111,7 @@
   background: transparent;
 }
 
-@media screen and (min-width:339px) and (max-width: 539px) {
+@media screen and (max-width: 539px) {
   .rainbow__line__container {
     flex-direction: column;
   }
