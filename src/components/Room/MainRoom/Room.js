@@ -37,7 +37,6 @@ function Light() {
       <div className="line__6">
         <Lamp />
       </div>
-      <Egg />
     </div>
   );
 }
