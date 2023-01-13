@@ -154,7 +154,7 @@
   z-index: 1;
 }
 
-@media screen and (min-width:339px) and (max-width: 539px){
+@media screen and (min-width:281px) and (max-width: 539px){
   .black__cat__main__div{
     margin-left: 200px;
   }
