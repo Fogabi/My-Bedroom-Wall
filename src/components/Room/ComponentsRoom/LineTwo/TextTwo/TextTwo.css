@@ -70,7 +70,7 @@
   color: white;
 }
 
-@media screen and (max-width:539px) {
+@media screen and (max-width: 539px) {
   .text__two__day__night {
     font-size: 30px;
     margin-left: 400px;
@@ -82,13 +82,15 @@
   }
   .text__two__shadow {
     margin-left: 550px;
-    min-width: 59%;
+    min-width: 70%;
+  }
+  .text__two__shadow:before {
+    min-width: 70%;
   }
 }
 
-@media screen and (min-width: 540px) and (max-width: 1280px){
-
-    .text__two__day__night {
+@media screen and (min-width: 540px) and (max-width: 1280px) {
+  .text__two__day__night {
     font-size: 30px;
     margin-left: 400px;
     width: 78%;
@@ -101,5 +103,4 @@
     margin-left: 550px;
     min-width: 400px;
   }
-
 }

@@ -54,10 +54,9 @@
 @media screen and (max-width: 539px) {
   .header__text {
     font-size: 100px;
-    min-width: 1200px;
+    min-width: 1150px;
   }
-  .header__intro {
-    margin-left: 130px;
+  .header__intro { 
     font-size: 45px;
     min-width: 400px;
   }
